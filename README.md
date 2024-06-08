@@ -1,9 +1,9 @@
 # Bootstrap_5_responsive
 Responsive Frontend Web Design
 
-This project features a fully responsive frontend web design developed with Bootstrap 5. It includes:
+This project features a fully responsive frontend web design developed with Bootstrap 5. It includes: \n
 
-  Bootstrap 5 Basics: 
+  Bootstrap 5 Basics: \n
       Leveraging the latest features and components of Bootstrap 5 for a modern, responsive layout.
   Custom CSS: 
       Enhancements and customizations implemented through a separate CSS file for a unique and polished design.
