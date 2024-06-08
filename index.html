@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!--nav bar-->
+    <section>
+        <nav class="navbar navbar-expand-md bg-light py-3 fixed-top ">
+            <div class="container-fluid">
+                <a href="" class="navbar-brand text-dark">
+                    <h1>Mini Blog</h1>
+                </a>
+    
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span><i class="bi bi-list text-dark h1"></i></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Home</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Politics</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Tech</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Entertainment</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Travel</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <h4>Sport</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="" class="nav-link text-dark">
+                                <i class="bi bi-search mx-1 h5"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+                </ul>
+            </div>
+        </nav>
+
+    </section>
+    
+
+    <!--side-bar-->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">
+                        <h4>Home</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <h4>Politics</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <h4>Tech</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <h4>Entertainment</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <h4>Travel</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <h4>Sport</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link text-dark">
+                        <i class="bi bi-search mx-1 h5"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <section class="p-5">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <div class="card mb-4 text-white w-100 ">
+                        <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title">The AI magically removes moving objects from videos.</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-md-0 mb-4 margin-b text-white w-100 ">
+                        <img src="img/img_2.jpg.webp" class="card-img-top" alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title lead">The AI magically removes moving objects from videos.</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-md-4 d-none d-md-block">
+                    <div class="card text-white w-100 h-100">
+                        <img src="img/img_v_1.jpg.webp" class="card-img-top h-100" alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title lead">The AI magically removes moving objects from videos.</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 d-flex flex-column justify-content-between">
+                    <div class="card mb-4 text-white w-100 ">
+                        <img src="img/img_3.jpg.webp" class="card-img-top" alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title lead">The 20 Biggest Fintech Companies In America 2019</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                    <div class="card mb-md-0 mb-4 text-white w-100 ">
+                        <img src="img/img_4.jpg.webp" class="card-img-top" alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <h5 class="card-title lead">The 20 Biggest Fintech Companies In America 2019</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--recent post-->
+    <section class="p-5 mt-5">
+        <div class="container">
+            <div class="h1 font-arial mb-5">Recent Post</div>
+
+            <div class="row font-atial">
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_2.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_3.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_2.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_3.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_2.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <div class="post">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="img/img_3.jpg.webp" class="card-img-top" alt="...">
+                            <ul class="list-group list-group-flush mt-3">
+                            <li>
+                                <div>
+                                    <span class="post-btn">POLITICS</span>
+                                </div>
+                            </li>
+                            <li >
+                                <span class="h2">
+                                    The AI magically removes moving objects from videos.
+                                </span>
+                            </li>
+                            <li >
+                                <div class="d-flex align-items-center gap-3">
+                                    <img src="img/person_1.jpg.webp" width="10%" class="rounded-circle" alt="" srcset="">
+                                    <span><span style="color: rgb(143, 143, 143);">By</span> carol smith </span>
+                                    <span>- july-19-2024</span>
+                                </div>
+                            </li>
+        
+                            <li>
+                                    <div class="" style="color: rgb(143, 143, 143);">
+                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique adipisci nisi recusandae consequuntur asperiores quisquam nesciunt. Vero modi fuga expedita.
+                                    </div>
+                            </li>
+        
+                            <li>
+                                <a href="#" class="card-link">Read More</a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <hr class="mb-5">
+            <div>
+                <nav aria-label="Page navigation example">
+                    <ul class="pagination justify-content-center">
+                    <li class="page-item"><a class="page-link-none " href="#">1</a></li>
+                    <li class="page-item"><a class="page-link-round " href="#">2</a></li>
+                    <li class="page-item"><a class="page-link-round " href="#">3</a></li>
+                    <li class="page-item"><a class="page-link-round " href="#">4</a></li>
+                    <li class="page-item"><a class="page-link-none " href="#">...</a></li>
+                    <li class="page-item"><a class="page-link-round " href="#">50</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+
+    <!--bottom-grid-->
+
+    <section class="p-5 b-grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 d-flex flex-column justify-content-between gap-4">
+                    <div class="">
+                        <div class="card text-white w-100">
+                            <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                            <div class="gradient-overlay"></div>
+                            <div class="card-img-overlay">
+                                <span class="post-btn" style="background-color: rgb(50, 236, 112);">SPORT</span>
+                                <h5 class="card-title">The AI magically removes moving objects from videos.</h5>
+                                <p class="card-text"><small>July 19, 2019</small></p>
+                            </div>
+                        </div>
+        
+                    </div>
+                    
+                    <div class="row d-flex flex-row">
+                        <div class="col-sm-6 mb-4 mb-sm-0 ">
+                            <div class="card text-white w-100 ">
+                                <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                                <div class="gradient-overlay"></div>
+                                <div class="card-img-overlay">
+                                    <span class="post-btn" style="background-color: rgb(50, 131, 236);">SPORT</span>
+                                    <h5 class="card-title">The AI magically removes moving objects from videos.</h5>
+                                    <p class="card-text"><small>July 19, 2019</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-4 mb-sm-0">
+                            <div class="card text-white w-100 ">
+                                <img src="img/img_1.jpg.webp" class="card-img-top" alt="...">
+                                <div class="gradient-overlay"></div>
+                                <div class="card-img-overlay">
+                                    <span class="post-btn" style="background-color: rgb(236, 171, 50);">SPORT</span>
+                                    <h5 class="card-title">The AI magically removes moving objects from videos.</h5>
+                                    <p class="card-text"><small>July 19, 2019</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-sm-4 mb-4 mb-sm-0">
+                    <div class="card text-white w-100 h-100 ">
+                        <img src="img/img_4.jpg.webp" class="card-img-top h-100 " alt="...">
+                        <div class="gradient-overlay"></div>
+                        <div class="card-img-overlay">
+                            <span class="post-btn" style="background-color: rgb(236, 50, 50);">SPORT</span>
+                            <h5 class="card-title">The AI magically removes moving objects from videos.</h5>
+                            <p class="card-text"><small>July 19, 2019</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--subscrib-->
+    
+    <section class="font-arial">
+        <div class="container p-5 ">
+            <div class="row">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-6">
+                    <div class="d-flex flex-column align-items-center contact-fild text-center" >
+                        <span class="h2 w-sm-0 format-size">Subscribe to our newsletter</span>
+                        <div class="lead format-size">
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Sit nesciunt error illum a explicabo,
+                            ipsam nostrum.
+                        </div>
+                        <div class="input-group m-5 format-size">
+                            <input type="text" class="form-control" placeholder="Enter your email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-outline-secondary" 
+                            style="background-color: rgb(1, 175, 255); color: aliceblue; border: none;" type="button" id="button-addon2">Button</button>
+                          </div>
+                    </div>
+                </div>
+           </div>
+            
+        </div>
+    </section>
+
+
+    <!--footer-->
+
+    <section class="">
+        <div class="container-fluid bg-dark p-5 text-light">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="h4">About Us</div>
+                    <div class="lead mb-4">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat reprehenderit magnam deleniti quasi saepe, consequatur atque sequi delectus dolore veritatis obcaecati quae, repellat eveniet omnis, voluptatem in. Soluta, eligendi, architecto.
+                    </div>
+                </div>
+
+                <div class="col-sm-3 d-lg-flex d-block flex-row">
+                    <ul class="ul-none no-gutter">
+                        <li>About Us</li>
+                        <li>Advertise</li>
+                        <li>Careers</li>
+                        <li>Subcribes</li>
+                    </ul>
+                    <ul class="ul-none no-gutter mx-lg-3 mx-0">
+                        <li>About Us</li>
+                        <li>Advertise</li>
+                        <li>Careers</li>
+                        <li>Subcribes</li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="h4">Connect With Us</div>
+                    <ul class="d-flex flex-row ul-none gap-4 no-gutter">
+                        <li>
+                            <a href=""><i class="bi bi-facebook text-light"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="bi bi-twitter text-light"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="bi bi-instagram text-light"></i></a>
+                        </li>
+                        <li>
+                            <a href=""><i class="bi bi-whatsapp text-light"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

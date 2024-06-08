@@ -1,0 +1,137 @@
+@media(max-width : 425px) {
+    .margin-b {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width : 992px) {
+    .card-title {
+        color: rgb(255, 255, 255);
+        bottom: 1rem;
+        position: absolute;
+        padding: 0px 20px 20px 0px;
+        font-size: 1rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.b-grid .card-title {
+        color: rgb(255, 255, 255);
+        bottom: -10px;
+        position: absolute;
+        padding: 0px 20px 20px 0px;
+        font-size: 0.9rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .b-grid .card-text {
+        display: none;
+    }
+
+    .b-grid .post-btn {
+        display: none;
+    }
+}
+
+.font-arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-link:hover {
+    color: rgb(52, 119, 219) !important;
+}
+
+.card {
+    border: none;
+}
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card-text {
+    color: rgb(255, 255, 255);
+    bottom: 1rem;
+    position: absolute;
+}
+
+.card-title {
+    color: rgb(255, 255, 255);
+    bottom: 1rem;
+    position: absolute;
+    padding: 0px 20px 20px 0px;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-img-overlay {
+    position: absolute;
+    bottom: 0% !important;
+}
+
+.gradient-overlay {
+    position: absolute;
+    border-radius: 1vh;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.6362920168067228) 0%, rgba(163,163,163,0) 100%);
+}
+
+.post-btn {
+    font-size: 0.8rem;
+    background-color: rgb(102, 102, 102);
+    color: aliceblue;
+    font-weight: 600;
+    padding: 0.3rem 0.5rem;
+    letter-spacing: 2px;
+    border-radius: 0.2rem;
+}
+
+.card ul li {
+    margin-bottom: 1rem;
+}
+
+.card ul {
+    margin-left: 1rem;
+    list-style: none;
+}
+
+.ul-none {
+    list-style: none;
+}
+
+.page-link-round {
+    background-color: rgb(62, 99, 221);
+    border-radius:100%;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    margin: 0rem .3rem;
+
+}
+
+.page-link-none{
+    color: rgb(129, 129, 129);
+    text-decoration: none;
+    padding: 1rem 1.3rem;
+    margin: 0rem .3rem;
+
+}
+
+.post ul li img {
+    width: 15%;
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 80px;
+}
+
+.no-gutter {
+    padding: 0%;
+}
+
+
